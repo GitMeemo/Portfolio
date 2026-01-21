@@ -6,7 +6,7 @@
 
   --color-card: #141a1f;
 
-  --color-primary: #20b2a6;
+  --color-primary: #00a6ff;
   --color-primary-foreground: #ffffff;
 
   --color-secondary: #1f2830;
@@ -46,7 +46,7 @@
 @layer components {
   .glass {
     background-color: color-mix(in srgb, var(--color-surface) 50%, transparent);
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(5px);
     border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
   }
 
