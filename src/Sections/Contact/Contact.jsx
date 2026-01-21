@@ -1,4 +1,4 @@
-const Testimonials = () => {
+const Contact = () => {
     return <section></section>
 }
-export default Testimonials;
+export default Contact;
