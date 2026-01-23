@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
-import { Menu, X} from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button, } from "../../Components";
 
 const navLinks = [
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
-    { href: "#testimonials", label: "Testimonials" },
 ]
 const Navbar = () => {
 
@@ -62,10 +61,14 @@ const Navbar = () => {
                 <div className="md:hidden glass-strong  animate-fade-in">
                     <div className="container mx-auto px-6 py-6 flex flex-col gap-3">
                         {navLinks.map((link, index) => (
-                            <a href={link.href} key={index} className="text-lg text-muted-foreground hover:text-foreground py-2">
+                            <a href={link.href} key={index}
+                                onClick={() => setIsMobileMenuOpen(false)}
+                                className="text-lg text-muted-foreground hover:text-foreground py-2">
                                 {link.label}</a>))}
 
-                        <Button size="default">Contact me</Button>
+                        <Button
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            size="default">Contact me</Button>
 
                     </div>
                 </div>

@@ -3,7 +3,6 @@ import Contact from './Contact/Contact';
 import Experience from './Experience/Experience';
 import Hero from './Hero/Hero';
 import Projects from './Projects/Projects';
-import Testimonials from './Testimonials/Testimonials';
 
 export {
   About,
@@ -11,5 +10,4 @@ export {
   Experience,
   Hero,
   Projects,
-  Testimonials
 };

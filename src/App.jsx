@@ -1,4 +1,4 @@
-import { Hero, Projects, Experience, Contact, About, Testimonials } from './Sections';
+import { Hero, Projects, Experience, Contact, About} from './Sections';
 import { Navbar, Footer } from './Layouts';
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
         <About />
         <Projects />
         <Experience />
-        <Testimonials />
         <Contact />
       </main>
       <Footer />
