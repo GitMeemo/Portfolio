@@ -1,4 +1,4 @@
-import { ArrowBigRightIcon, Download, Github, Linkedin} from "lucide-react";
+import { ArrowBigRightIcon, Download, Github, Linkedin } from "lucide-react";
 import { Button, AnimatedBB } from "../../Components";
 const skills = [
     "React",
@@ -15,7 +15,7 @@ const Hero = () => {
                 <img src="/images/hero-bg.jpg" alt="HeroBG" className="w-full h-full object-cover opacity-100" />
             </div>
 
-            <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background">
+            <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/60 to-background">
             </div>
 
             {/* Content */}
@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className="space-y-8 ">
 
                         {/* Headline */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 my-8">
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                                 Developing digital
                                 <br />
@@ -43,9 +43,9 @@ const Hero = () => {
 
                         {/* CTA */}
                         <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                            <Button size="lg">
+                            {/* <Button size="lg">
                                 Contact Me <ArrowBigRightIcon className="w-5 h-5" />
-                            </Button>
+                            </Button> */}
                             <AnimatedBB>
                                 <Download className="w-5 h-5" />
                                 Download CV
@@ -58,36 +58,34 @@ const Hero = () => {
                                 { icon: Github, href: "https://github.com/GitMeemo" },
                                 { icon: Linkedin, href: "https://www.linkedin.com/in/ameenullah-kamangar-628584347" },
                             ].map((social, idx) => (
-                                <a
-                                    key={idx}
-                                    href={social.href}
-                                    className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
-                                >
+                                <a key={idx} href={social.href}
+                                    className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                                     {<social.icon className="w-6 h-6" />}
                                 </a>
                             ))}
                         </div>
-
                     </div>
 
                     {/* Profile img > Right */}
                     <div className="relative animate-fade-in animation-delay-300">
+
                         {/* Profile Image */}
                         <div className="relative max-w-md mx-auto">
                             <div className="relative inset-0 rounded-3xl p-2 glow-border">
                                 <img src="/images/Profile.png" alt="Ameenullah" className="w-full aspect-4/5 object-cover rounded-2xls" />
 
                                 {/* Floating Badge */}
-                                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
+                                {/* <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                                     <div className="flex items-center gap-3">
                                         <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                                         <span className="text-sm font-medium">
                                             Available for work
                                         </span>
                                     </div>
-                                </div>
+                                </div> */}
+
                                 {/* Stats Badge */}
-                                <div className="absolute -bottom-3 -left-3 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                                <div className="absolute -bottom-3 -right-3 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                                     <div className="text-1xl font-bold text-primary">1+ Year Exp</div>
                                 </div>
                             </div>
@@ -115,7 +113,6 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }
