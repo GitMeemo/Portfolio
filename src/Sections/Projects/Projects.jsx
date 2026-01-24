@@ -67,6 +67,7 @@ const Projects = () => {
                                 </a> */}
                                 <a
                                     href={project.github}
+                                    target="_blank"
                                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                                 >
                                     <Github className="w-5 h-5" />
