@@ -47,9 +47,9 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        I specialize in React, Next.js, and TypeScript, building
-                        everything from sleek landing pages to complex enterprise
-                        applications. My approach combines technical excellence with a
+                        I specialize in React, Next.js, building
+                        everything from sleek landing pages.
+                        My approach combines technical excellence with a
                         keen eye for design and user experience.
                     </p>
                     <br />
