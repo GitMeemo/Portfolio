@@ -90,7 +90,7 @@ const Projects = () => {
                             <p className="text-muted-foreground text-sm">
                                 {project.description}
                             </p>
-                            <div className="flex flex-wrap gap-2">
+                            {/* <div className="flex flex-wrap gap-2">
                                 {project.tags.map((tag, tagIdx) => (
                                     <span
                                         key={tagIdx}
@@ -99,7 +99,7 @@ const Projects = () => {
                                         {tag}
                                     </span>
                                 ))}
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
