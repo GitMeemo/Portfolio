@@ -1,6 +1,6 @@
 import { Code2, Lightbulb, Rocket, Users, Github, ArrowUpRight } from "lucide-react";
 import images from '../../Assets/images.js';
-import {AnimatedBB} from "../../Components";
+import { AnimatedBB } from "../../Components";
 
 const projects = [
     {
@@ -37,8 +37,7 @@ const Projects = () => {
                 <span className='text-white text-sm font-medium tracking-wider uppercase animate-fade-in'>
                     Featured Work
                 </span>
-                <h2 className='text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground glow-text'>Projects that
-                    <span> make an impact.</span>
+                <h2 className='text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground glow-text'>Projects
                 </h2>
                 <p className="text-muted-foreground animate-fade-in animation-delay-200">
                     Highlights of my recent work, including scalable web applications.
@@ -90,7 +89,7 @@ const Projects = () => {
                             <p className="text-muted-foreground text-sm">
                                 {project.description}
                             </p>
-                            {/* <div className="flex flex-wrap gap-2">
+                            <div className="flex flex-wrap gap-2">
                                 {project.tags.map((tag, tagIdx) => (
                                     <span
                                         key={tagIdx}
@@ -99,7 +98,7 @@ const Projects = () => {
                                         {tag}
                                     </span>
                                 ))}
-                            </div> */}
+                            </div>
                         </div>
 
                     </div>

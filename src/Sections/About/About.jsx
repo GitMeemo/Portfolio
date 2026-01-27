@@ -27,11 +27,11 @@ const About = () => {
                 {/* Left Column */}
                 <div className="space-y-8">
                     <div className="animate-fade-in">
-                        <span className="text-white text-3xl font-medium glow-text">About me</span>
+                        <span className="text-white text-3xl font-default glow-text">About me</span>
                     </div>
                 </div>
 
-                <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-white">
+                <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-primary">
                     Developing the future,
                     <br />
                     <span className="font-serif font-normal text-primary glow-text">one component at a time.</span>
