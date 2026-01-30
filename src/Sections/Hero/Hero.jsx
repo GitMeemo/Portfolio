@@ -1,11 +1,6 @@
 import { ArrowBigRightIcon, Download, Github, Linkedin } from "lucide-react";
 import { Button, AnimatedBB } from "../../Components";
-const skills = [
-    "React",
-    "Next.js",
-    "Tailwind CSS",
-    "Git",
-    "GitHub Actions",
+const skills = [ "React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions",
 ];
 const Hero = () => {
     return (
