@@ -46,7 +46,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden md:block">
-                    <Button size="sm">Contact me</Button>
+                    <Button size="sm" href="#contact" >Contact me</Button>
                 </div>
 
                 {/* Mobile Menu Button */}
