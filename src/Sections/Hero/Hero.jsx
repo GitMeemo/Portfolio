@@ -1,4 +1,4 @@
-import { ArrowBigRightIcon, Download, Github, Linkedin, Instagram, Facebook } from "lucide-react";
+import { ArrowBigRightIcon, Download, Github, Linkedin, Instagram, Facebook, Target } from "lucide-react";
 import { Button, AnimatedBB } from "../../Components";
 const skills = ["React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions",
 ];
@@ -42,10 +42,10 @@ const Hero = () => {
                                 Contact Me <ArrowBigRightIcon className="w-5 h-5" />
                             </Button> */}
                             <AnimatedBB>
-                                <a href="src/Assets/Resume/Resume.pdf" >
+                                <a href="/Resume/Resume.pdf" download="Ameen_Kamangar_Resume.pdf" className="flex items-center gap-2">
                                     <Download className="w-5 h-5" />
+                                    Download CV
                                 </a>
-                                Download CV
                             </AnimatedBB>
                         </div>
 
@@ -57,7 +57,7 @@ const Hero = () => {
                                 { icon: Instagram, href: "https://www.instagram.com/halluneema?igsh=ZHFlbmtsZWJkZnVr" },
                                 { icon: Facebook, href: "https://www.facebook.com/amin.kamanger/" },
                             ].map((social, idx) => (
-                                <a key={idx} href={social.href}
+                                <a key={idx} href={social.href} target="blank"
                                     className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                                     {<social.icon className="w-6 h-6" />}
                                 </a>
