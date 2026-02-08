@@ -26,7 +26,7 @@ const Hero = () => {
                                 <br />
                                 experiences with
                                 <br />
-                                <span className="font-serif font-normal text-primary glow-text">
+                                <span className="font-serif font-normal italic text-primary glow-text">
                                     latest technologies
                                 </span>
                             </h1>

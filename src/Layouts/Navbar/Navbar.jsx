@@ -30,8 +30,8 @@ const Navbar = () => {
                 </a>
 
                 {/* Desktop Nav */}
-                <div className="hidden md:flex items-center gap-5">
-                    <div className="glass rounded-full px-2 flex items-center gap-5 -mx-45">
+                <div className="hidden md:flex items-center ">
+                    <div className="glass rounded-full px-2 flex items-center gap-4 -mx-48">
                         {navLinks.map((link, index) => (
                             <a href={link.href} key={index} className="px-4 py-2 text-sm text-primary-foregroundforeground hover:text-primary rounded-full hover:bg-background">
                                 {link.label}</a>))}
