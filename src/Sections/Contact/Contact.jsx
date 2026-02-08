@@ -91,9 +91,9 @@ const Contact = () => {
                         Get In Touch
                     </span>
 
-                    <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
+                    <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-white">
                         Let's build{" "}
-                        <span className="font-serif italic font-normal text-white">
+                        <span className="font-serif italic font-normal text-primary glow-text">
                             something great.
                         </span>
                     </h2>
