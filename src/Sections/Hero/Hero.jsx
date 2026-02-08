@@ -1,6 +1,6 @@
-import { ArrowBigRightIcon, Download, Github, Linkedin } from "lucide-react";
+import { ArrowBigRightIcon, Download, Github, Linkedin, Instagram, Facebook } from "lucide-react";
 import { Button, AnimatedBB } from "../../Components";
-const skills = [ "React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions",
+const skills = ["React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions",
 ];
 const Hero = () => {
     return (
@@ -42,7 +42,9 @@ const Hero = () => {
                                 Contact Me <ArrowBigRightIcon className="w-5 h-5" />
                             </Button> */}
                             <AnimatedBB>
-                                <Download className="w-5 h-5" />
+                                <a href="src/Assets/Resume/Resume.pdf" >
+                                    <Download className="w-5 h-5" />
+                                </a>
                                 Download CV
                             </AnimatedBB>
                         </div>
@@ -52,6 +54,8 @@ const Hero = () => {
                             {[
                                 { icon: Github, href: "https://github.com/GitMeemo" },
                                 { icon: Linkedin, href: "https://www.linkedin.com/in/ameenullah-kamangar-628584347" },
+                                { icon: Instagram, href: "https://www.instagram.com/halluneema?igsh=ZHFlbmtsZWJkZnVr" },
+                                { icon: Facebook, href: "https://www.facebook.com/amin.kamanger/" },
                             ].map((social, idx) => (
                                 <a key={idx} href={social.href}
                                     className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
