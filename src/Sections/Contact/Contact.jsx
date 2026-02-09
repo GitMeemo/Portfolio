@@ -52,7 +52,7 @@ const Contact = () => {
                 );
             }
 
-            await emailjs.send(serviceId,templateId,
+            await emailjs.send(serviceId, templateId,
                 {
                     name: formData.name,
                     email: formData.email,
