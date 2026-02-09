@@ -1,7 +1,8 @@
 import { ArrowBigRightIcon, Download, Github, Linkedin, Instagram, Facebook, Target } from "lucide-react";
 import { Button, AnimatedBB } from "../../Components";
-const skills = ["React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions",
-];
+
+const skills = ["React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions"];
+
 const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -94,7 +95,7 @@ const Hero = () => {
                 </div>
                 {/* Skills Section */}
                 <div className="mt-20 animate-fade-in animation-delay-600">
-                    <p className="text-sm text-muted-foreground mb-6 text-center">Tech Stack</p>
+                    <p className=" mb-6 text-center text-white text-sm font-medium tracking-wider uppercase animate-fade-in">Tech Stack</p>
                     <div className="relative overflow-hidden">
                         <div className="absolute left-0 top-0 bottom-0 w-32bg-linear-to-r from-background to-transparent z-10"
                         />

@@ -4,7 +4,7 @@ const experiences = [
         role: "Frontend Developer",
         company: "Industrial liason Comats Abbotabad",
         description: "Contributed to the development of web and mobile applications to enhance operational efficiency and public service delivery.",
-        technologies: ["Javascript", "React"],
+        technologies: ["HTML", "CSS", "Javascript", "React"],
         current: false,
 
     },
@@ -29,7 +29,7 @@ const Experience = () => {
                 {/* Section Header */}
                 <div className="max-w-3l mb-16">
 
-                    <span className="text-white text-default font-medium tracking-wider uppercase animate-fade-in">
+                    <span className="text-white text-sm font-medium tracking-wider uppercase animate-fade-in">
                         Career Journey</span>
 
                     <h2 className="text-4xl md:text-5xl font-bold
@@ -56,11 +56,11 @@ const Experience = () => {
                                 style={{ animationDelay: `${(id + 1) * 150}ms` }}>
 
                                 {/* Timeline Dot*/}
-                <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
-                  {exp.current && (
-                    <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />
-                  )}
-                </div>
+                                <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
+                                    {/* {exp.current && (
+                                        <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />
+                                    )} */}
+                                </div>
 
                                 {/* Content */}
                                 <div className={`pl-8 md:pl-0 ${id % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>

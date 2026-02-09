@@ -25,7 +25,7 @@ const Navbar = () => {
             ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"}  z-50`}
         >
             <nav className="container mx-auto px-7 flex items-center justify-between">
-                <a href="#" className="text-xl  font-bold tracking-tight hover:text-primary" >
+                <a href="#" className="text-xl  font-bold tracking-tight hover:text-primary trans-all duration-500" >
                     Ameenullah Kamangar<span className="text-primary">.</span>
                 </a>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center ">
                     <div className="glass rounded-full px-2 flex items-center gap-4 -mx-48">
                         {navLinks.map((link, index) => (
-                            <a href={link.href} key={index} className="px-4 py-2 text-sm text-primary-foregroundforeground hover:text-primary rounded-full hover:bg-background">
+                            <a href={link.href} key={index} className="px-4 py-2 text-sm text-primary-foregroundforeground hover:text-primary rounded-full hover:bg-background trans-all duration-500">
                                 {link.label}</a>))}
                     </div>
                     {/* <div  >

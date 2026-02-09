@@ -46,10 +46,10 @@ const Projects = () => {
                 </p>
             </div>
             {/* Projects Grid */}
-            <div className='grid md:grid-cols-3 gap-6'>
+            <div className='grid md:grid-cols-3 gap-6 '>
                 {projects.map((project, id) => (
                     <div key={id}
-                        className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
+                        className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1 border hover:border-primary/70 trans-all duration-500"
                         style={{ animationDelay: `${(id + 1) * 100}ms` }}>
                         {/* image */}
                         <div className='relative overflow-hidden aspect-video'>
