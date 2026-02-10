@@ -1,7 +1,7 @@
 import { ArrowBigRightIcon, Download, Github, Linkedin, Instagram, Facebook, Target } from "lucide-react";
 import { Button, AnimatedBB } from "../../Components";
 
-const skills = ["React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions"];
+const skills = ["HTML","CSS","JavaScript","React", "Next.js", "Tailwind CSS", "Git", "GitHub Actions"];
 
 const Hero = () => {
     return (
@@ -102,7 +102,7 @@ const Hero = () => {
                         <div className="absolute right-0 top-0 bottom-0 w-32bg-linear-to-l from-background to-transparent z-10"
                         />
                         <div className="flex animate-marquee">
-                            {[...skills, ...skills].map((skill, idx) => (
+                            {[...skills,...skills].map((skill, idx) => (
                                 <div key={idx} className="shrink-0 px-8 py-4">
                                     <span className="text-xl font-semibold text-primary/40 hover:text-foreground transition-colors trans-all duration-500">
                                         {skill}
