@@ -8,14 +8,16 @@ const projects = [
         description: "A modern, fully responsive Lamborghini dealership website built with React. This project focuses on clean UI, smooth animations, and responsiveness.This project can also be used for other types of business websites.",
         image: images.Lambo,
         tags: ["React", "CSS", "Javascript"],
-        github: "https://github.com/GitMeemo/Lamborghini_Dealership"
+        github: "https://github.com/GitMeemo/Lamborghini_Dealership",
+        link: "https://lambodealer.netlify.app/"
     },
     {
         title: "GPT",
         description: "GPT Early Access Website is a fully responsive front-end using Next.js and React, with a strong focus on clean code and responsive design. The project follows modern front-end standards by using reusable Components and layout-based Containers.",
         image: images.GPT,
         tags: ["React", "CSS", "Javascript", "Next.js"],
-        github: "https://github.com/GitMeemo/GPT"
+        github: "https://github.com/GitMeemo/GPT",
+        link: "http://jeept.netlify.app/"
     },
     {
         title: "AK Games",
@@ -60,12 +62,13 @@ const Projects = () => {
 
                             {/* Overlay Links */}
                             <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                {/* <a
+                                <a
                                     href={project.link}
+                                    target="_blank"
                                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                                 >
                                     <ArrowUpRight className="w-5 h-5" />
-                                </a> */}
+                                </a>
                                 <a
                                     href={project.github}
                                     target="_blank"
