@@ -104,7 +104,7 @@ const Hero = () => {
                         <div className="flex animate-marquee">
                             {[...skills,...skills].map((skill, idx) => (
                                 <div key={idx} className="shrink-0 px-8 py-4">
-                                    <span className="text-xl font-semibold text-primary/40 hover:text-foreground transition-colors trans-all duration-500">
+                                    <span className="text-xl font-semibold text-primary/40 hover:text-primary hover:glow-text transition-colors trans-all duration-500">
                                         {skill}
                                     </span>
                                 </div>

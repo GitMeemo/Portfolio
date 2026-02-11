@@ -32,10 +32,12 @@ const Experience = () => {
                     <span className="text-white text-sm font-medium tracking-wider uppercase animate-fade-in">
                         Career Journey</span>
 
-                    <h2 className="text-4xl md:text-5xl font-bold
-                     mt-4 mb-6 animate-fade-in animation-delay-100
-                     text-secondary-foreground glow-text" >
-                        Experience </h2>
+                    <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-white">
+                        Experiences {" "}
+                        <span className="font-serif italic font-normal text-primary glow-text">
+                            that stand out.
+                        </span>
+                    </h2>
 
                     <p className="text-muted-foreground animate-fade-in animation-delay-200">
                         A timeline of my growth, from curious beginner to
