@@ -132,6 +132,7 @@ const Contact = () => {
                                 <label
                                     htmlFor="email"
                                     type="email"
+                                    id="email"
                                     className="block text-sm font-medium mb-2"
                                 >
                                     Email
@@ -150,6 +151,7 @@ const Contact = () => {
                             <div>
                                 <label
                                     htmlFor="message"
+                                    id="message"
                                     className="block text-sm font-medium mb-2"
                                 >
                                     Message
