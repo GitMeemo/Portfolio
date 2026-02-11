@@ -94,7 +94,7 @@ const Contact = () => {
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-white">
                         Let’s build  {" "}
                         <span className="font-serif italic font-normal text-primary glow-text">
-                           your next web project.
+                            your next web project.
                         </span>
                     </h2>
 
@@ -132,12 +132,13 @@ const Contact = () => {
                                 <label
                                     htmlFor="email"
                                     type="email"
-                                    id="email"
+
                                     className="block text-sm font-medium mb-2"
                                 >
                                     Email
                                 </label>
                                 <input
+                                    id="email"
                                     required
                                     placeholder="your@email.com"
                                     value={formData.email}
@@ -151,12 +152,13 @@ const Contact = () => {
                             <div>
                                 <label
                                     htmlFor="message"
-                                    id="message"
+
                                     className="block text-sm font-medium mb-2"
                                 >
                                     Message
                                 </label>
                                 <textarea
+                                    id="message"
                                     rows={5}
                                     required
                                     value={formData.message}
