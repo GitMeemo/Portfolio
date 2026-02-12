@@ -2,7 +2,7 @@ const experiences = [
     {
         period: "June 2024 — Dec 2024",
         role: "Frontend Developer",
-        company: "Industrial liason Comats Abbotabad",
+        company: "Industrial liason Comsats Abbotabad",
         description: "Contributed to the development of web and mobile applications to enhance operational efficiency and public service delivery.",
         technologies: ["HTML", "CSS", "Javascript", "React"],
         current: false,

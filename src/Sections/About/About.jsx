@@ -39,11 +39,10 @@ const About = () => {
 
                 <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-100 ">
                     <p>
-                        I’m a COMSATS University graduate with over 1+ year of hands-on
-                        experience in frontend development, crafting digital products that makes
-                        a difference. My journey started with a curiosity for how things work
-                        on the web, and it has evolved into a deep expertise in modern
-                        frontend technologies.
+                        I’m a COMSATS University graduate with over 1 year of hands-on experience in frontend development,
+                        crafting digital products that make a difference.
+                        My journey started with a curiosity about how things work on the web,
+                        and it has evolved into deep expertise in modern frontend technologies.
                     </p>
                     <br />
                     <p>
